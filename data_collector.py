@@ -5,9 +5,9 @@ import uuid
 
 IMAGE_PATH = "CollectedImages"
 
-labels = ['Hello', 'Yes', 'No', 'Thanks', 'IloveYou', 'Please']
+labels = ['Hello','IloveYou','Please','GoodBye','Soory','Thanks','No', 'Yes']
 
-number_of_images = 5
+number_of_images = 20
 
 for label in labels:
     img_path = os.path.join(IMAGE_PATH, label)
