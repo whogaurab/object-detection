@@ -1,3 +1,9 @@
-from signLanguage import logger
+# from signLanguage.logger import logger
+import sys
+from signLanguage.exception import AppException
+try:
+     a  = 3/"s"
 
-logger.info("welcome to the Project")
+except Exception as e:
+     
+     raise AppException(e, sys)
